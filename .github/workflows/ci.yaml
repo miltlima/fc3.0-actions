@@ -8,7 +8,7 @@ jobs:
   check-applications:
     strategy:
       matrix: 
-        go: ['1.14', '1.15']
+        go: ['1.14', '1.15', '1.16']
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
